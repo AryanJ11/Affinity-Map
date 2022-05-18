@@ -1,0 +1,19 @@
+.group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: $l-size;
+    text-align: center;
+}
+
+.group__text{
+    margin: $s-size;
+    background: $purple;
+}
+
+.group__body{
+    display: flex;
+    flex-basis: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}

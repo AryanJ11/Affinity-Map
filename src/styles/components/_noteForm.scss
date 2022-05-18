@@ -1,0 +1,49 @@
+.noteForm{
+    margin: auto;
+    margin-bottom: $l-size;
+    text-align: center;
+    width: 35%;
+}
+
+.noteForm__title{
+    margin: 0;
+    background: $purple;
+    color: white;
+    font-size: $l-size;
+    padding: $m-size $m-size;
+}
+
+.noteForm__body{
+    background: $light-blue;
+    margin: 0;
+}
+
+.noteForm__input{
+    margin: $l-size;
+    padding: $m-size;
+    border: $off-white;
+    color: $off-black;
+}
+
+.noteForm__text{
+    margin: $m-size;
+    padding: $m-size;
+    border: $off-white;
+    color: $off-black;
+}
+
+.noteForm__button{
+    margin: $m-size;
+    padding: $m-size;
+    border: $off-white;
+    color: $off-black;
+}
+
+.noteForm__error{
+    background: $light-blue;
+    margin: 0;
+    color: $off-white;
+    font-size: 2rem;
+    font-weight: 1000;
+    padding-top: $l-size;
+}

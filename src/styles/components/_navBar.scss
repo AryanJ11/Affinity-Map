@@ -1,0 +1,34 @@
+.navBar{
+    background: white;
+    margin-bottom: $l-size;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar-button{
+    margin: $m-size $l-size;
+    color: white;
+    border: none;
+    border-bottom: 5px solid darken($purple, 10%);
+    background: $purple;
+    font-size: $m-size;
+    padding: $m-size;
+
+}
+
+.navBar-button__add{
+    margin: $m-size $l-size;
+    color: white;
+    border: none;
+    border-bottom: 5px solid darken($purple, 10%);
+    background: $purple;
+    font-size: $m-size;
+    padding: $s-size;
+
+}
+
+.navBar-input{
+    border: 2px solid black;
+    padding: $m-size $m-size;
+    margin: $m-size $m-size;
+}

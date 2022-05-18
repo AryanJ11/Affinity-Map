@@ -1,0 +1,16 @@
+.noteList{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.noteList__item{
+    margin: auto;
+    margin-bottom: $l-size;
+    text-align: center;
+}
+
+.noteList__item-body{
+    background: $light-blue;
+    margin: $m-size;
+}
