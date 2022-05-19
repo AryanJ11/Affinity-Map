@@ -4,7 +4,7 @@ import { setFilterBucket, sortByBucket, unsortNotes } from '../actions/filters';
 
 const FilterNote = (props) => {
     return(
-        <span>
+        <span className = "group-button">
 
             <input 
             type = "text" 

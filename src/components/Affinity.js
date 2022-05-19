@@ -53,7 +53,7 @@ class Affinity extends React.Component {
                 <h1 className = "header" >AFFINITY MAP</h1>
                 <div className = "navBar">
                     <button onClick = {this.handleAdd} className = "navBar-button__add">Add Note</button>
-                    <p>
+                    <p className = "group-button">
                     <button onClick = {this.handleGroup} className = "navBar-button">Group Notes</button>
                     <button onClick = {this.handleUngroup} className = "navBar-button" disabled = {!this.state.group}>UnGroup Notes</button>
                     <FilterNote group = {this.state.group}/>

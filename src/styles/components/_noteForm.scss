@@ -47,3 +47,24 @@
     font-weight: 1000;
     padding-top: $l-size;
 }
+
+@media (max-width: $desktop-breakpoint){
+    
+    .noteForm{
+        width: 70%;
+    }
+
+    .noteForm__title{
+        font-size: $m-size;
+    }
+
+    .noteForm__input{
+        padding: 1rem;
+        margin: 1rem 0.5rem;
+    }
+
+    .noteForm__text{
+        padding: 1rem;
+        margin: 1rem 0.2rem;
+    }
+}

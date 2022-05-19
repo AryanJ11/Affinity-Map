@@ -32,3 +32,34 @@
     padding: $m-size $m-size;
     margin: $m-size $m-size;
 }
+
+@media (max-width: $desktop-breakpoint){
+    .navBar{
+        flex-direction: column;
+        width: 40%;
+        margin: auto;
+    }
+
+    .navBar-button__add{
+        margin: 1rem;
+        // padding: 0;
+    }
+    .navBar-button{
+        margin: 1rem;
+        margin-bottom: 1rem;
+        // padding: 0;
+    }
+
+    .navBar-input{
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        padding: 1rem;
+        // width: 100%;
+    }
+
+    .group-button{
+        display: flex;
+        flex-direction: column;
+    }
+}
